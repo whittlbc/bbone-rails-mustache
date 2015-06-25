@@ -1,0 +1,15 @@
+paths:
+    mustache: ./mustache
+    Mustache: ./mustache
+    stache: ./stache
+shim:
+    backbone:
+        deps: [underscore, jquery]
+        exports: Backbone
+    underscore:
+        exports: _
+    bootstrap:
+        deps: [jquery]
+modules:
+    - name: application
+

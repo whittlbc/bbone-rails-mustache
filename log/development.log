@@ -1,0 +1,1433 @@
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-24 23:07:29 -0700
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Compiled home.css  (4ms)  (pid 41502)
+Compiled application.css  (8ms)  (pid 41502)
+Completed 200 OK in 28ms (Views: 27.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-24 23:07:29 -0700
+Served asset /application.css - 200 OK (9ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-24 23:07:30 -0700
+Served asset /home.css - 200 OK (1ms)
+
+
+Started GET "/assets/require.js" for 127.0.0.1 at 2015-06-24 23:07:30 -0700
+Compiled require.js  (1ms)  (pid 41502)
+Served asset /require.js - 200 OK (10ms)
+
+
+Started GET "/assets/application" for 127.0.0.1 at 2015-06-24 23:07:30 -0700
+Compiled application.js  (224ms)  (pid 41502)
+Served asset /application - 200 OK (233ms)
+
+
+Started GET "/assets/views/home.js" for 127.0.0.1 at 2015-06-24 23:07:30 -0700
+Compiled views/home.js  (161ms)  (pid 41502)
+Served asset /views/home.js - 200 OK (170ms)
+
+
+Started GET "/assets/underscore.js" for 127.0.0.1 at 2015-06-24 23:07:30 -0700
+Compiled underscore.js  (2ms)  (pid 41502)
+Served asset /underscore.js - 200 OK (13ms)
+
+
+Started GET "/assets/jquery.js" for 127.0.0.1 at 2015-06-24 23:07:30 -0700
+Compiled jquery.js  (5ms)  (pid 41502)
+Served asset /jquery.js - 200 OK (45ms)
+
+
+Started GET "/assets/views/child-view.js" for 127.0.0.1 at 2015-06-24 23:07:30 -0700
+Compiled views/child-view.js  (166ms)  (pid 41502)
+Served asset /views/child-view.js - 200 OK (176ms)
+
+
+Started GET "/assets/backbone.js" for 127.0.0.1 at 2015-06-24 23:07:30 -0700
+Compiled backbone.js  (1ms)  (pid 41502)
+Served asset /backbone.js - 200 OK (10ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-24 23:15:41 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-24 23:15:41 -0700
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/require.js" for 127.0.0.1 at 2015-06-24 23:15:41 -0700
+Served asset /require.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-24 23:15:41 -0700
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/application" for 127.0.0.1 at 2015-06-24 23:15:41 -0700
+Served asset /application - 200 OK (0ms)
+
+
+Started GET "/assets/views/home.js" for 127.0.0.1 at 2015-06-24 23:15:41 -0700
+Served asset /views/home.js - 200 OK (0ms)
+
+
+Started GET "/assets/underscore.js" for 127.0.0.1 at 2015-06-24 23:15:41 -0700
+Served asset /underscore.js - 200 OK (0ms)
+
+
+Started GET "/assets/views/child-view.js" for 127.0.0.1 at 2015-06-24 23:15:41 -0700
+Served asset /views/child-view.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js" for 127.0.0.1 at 2015-06-24 23:15:41 -0700
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone.js" for 127.0.0.1 at 2015-06-24 23:15:41 -0700
+Served asset /backbone.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-24 23:15:51 -0700
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/require.js" for 127.0.0.1 at 2015-06-24 23:15:51 -0700
+Served asset /require.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-24 23:15:51 -0700
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-24 23:15:51 -0700
+Served asset /home.css - 200 OK (1ms)
+
+
+Started GET "/assets/application" for 127.0.0.1 at 2015-06-24 23:15:51 -0700
+Served asset /application - 200 OK (2ms)
+
+
+Started GET "/assets/views/home.js" for 127.0.0.1 at 2015-06-24 23:15:51 -0700
+Served asset /views/home.js - 200 OK (2ms)
+
+
+Started GET "/assets/underscore.js" for 127.0.0.1 at 2015-06-24 23:15:51 -0700
+Served asset /underscore.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js" for 127.0.0.1 at 2015-06-24 23:15:51 -0700
+Served asset /jquery.js - 200 OK (4ms)
+
+
+Started GET "/assets/views/child-view.js" for 127.0.0.1 at 2015-06-24 23:15:51 -0700
+Served asset /views/child-view.js - 200 OK (6ms)
+
+
+Started GET "/assets/backbone.js" for 127.0.0.1 at 2015-06-24 23:15:51 -0700
+Served asset /backbone.js - 200 OK (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-24 23:17:42 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Compiled bootstrap.css  (0ms)  (pid 41574)
+Compiled application.css  (7ms)  (pid 41574)
+Completed 200 OK in 25ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-24 23:17:42 -0700
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-24 23:17:42 -0700
+Served asset /application.css - 200 OK (5ms)
+
+
+Started GET "/assets/require.js" for 127.0.0.1 at 2015-06-24 23:17:42 -0700
+Served asset /require.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-06-24 23:17:42 -0700
+Served asset /bootstrap.css - 200 OK (2ms)
+
+
+Started GET "/assets/application" for 127.0.0.1 at 2015-06-24 23:17:42 -0700
+Served asset /application - 200 OK (0ms)
+
+
+Started GET "/assets/views/home.js" for 127.0.0.1 at 2015-06-24 23:17:43 -0700
+Served asset /views/home.js - 200 OK (0ms)
+
+
+Started GET "/assets/underscore.js" for 127.0.0.1 at 2015-06-24 23:17:43 -0700
+Served asset /underscore.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js" for 127.0.0.1 at 2015-06-24 23:17:43 -0700
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/views/child-view.js" for 127.0.0.1 at 2015-06-24 23:17:43 -0700
+Served asset /views/child-view.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone.js" for 127.0.0.1 at 2015-06-24 23:17:43 -0700
+Served asset /backbone.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-24 23:19:24 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-24 23:19:24 -0700
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-06-24 23:19:24 -0700
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-24 23:19:24 -0700
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/require.js" for 127.0.0.1 at 2015-06-24 23:19:24 -0700
+Served asset /require.js - 200 OK (0ms)
+
+
+Started GET "/assets/application" for 127.0.0.1 at 2015-06-24 23:19:24 -0700
+Served asset /application - 200 OK (0ms)
+
+
+Started GET "/assets/views/home.js" for 127.0.0.1 at 2015-06-24 23:19:24 -0700
+Served asset /views/home.js - 200 OK (0ms)
+
+
+Started GET "/assets/underscore.js" for 127.0.0.1 at 2015-06-24 23:19:24 -0700
+Served asset /underscore.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js" for 127.0.0.1 at 2015-06-24 23:19:24 -0700
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/views/child-view.js" for 127.0.0.1 at 2015-06-24 23:19:24 -0700
+Served asset /views/child-view.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone.js" for 127.0.0.1 at 2015-06-24 23:19:24 -0700
+Served asset /backbone.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-24 23:20:03 -0700
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 40ms (Views: 39.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-24 23:20:03 -0700
+Served asset /application.css - 200 OK (11ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-06-24 23:20:03 -0700
+Served asset /bootstrap.css - 200 OK (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-24 23:20:03 -0700
+Served asset /home.css - 200 OK (1ms)
+
+
+Started GET "/assets/require.js" for 127.0.0.1 at 2015-06-24 23:20:03 -0700
+Served asset /require.js - 200 OK (4ms)
+
+
+Started GET "/assets/application" for 127.0.0.1 at 2015-06-24 23:20:03 -0700
+Served asset /application - 200 OK (2ms)
+
+
+Started GET "/assets/views/home.js" for 127.0.0.1 at 2015-06-24 23:20:03 -0700
+Served asset /views/home.js - 200 OK (3ms)
+
+
+Started GET "/assets/underscore.js" for 127.0.0.1 at 2015-06-24 23:20:03 -0700
+Served asset /underscore.js - 200 OK (3ms)
+
+
+Started GET "/assets/views/child-view.js" for 127.0.0.1 at 2015-06-24 23:20:03 -0700
+Served asset /views/child-view.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js" for 127.0.0.1 at 2015-06-24 23:20:03 -0700
+Served asset /jquery.js - 200 OK (28ms)
+
+
+Started GET "/assets/backbone.js" for 127.0.0.1 at 2015-06-24 23:20:03 -0700
+Served asset /backbone.js - 200 OK (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-24 23:26:23 -0700
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-24 23:26:23 -0700
+Served asset /application.css - 200 OK (4ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-24 23:26:23 -0700
+Served asset /home.css - 200 OK (1ms)
+
+
+Started GET "/assets/require.js" for 127.0.0.1 at 2015-06-24 23:26:23 -0700
+Served asset /require.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-06-24 23:26:23 -0700
+Served asset /bootstrap.css - 200 OK (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-24 23:27:03 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 3ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/require.js" for 127.0.0.1 at 2015-06-24 23:27:03 -0700
+Served asset /require.js - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-24 23:27:03 -0700
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-24 23:27:03 -0700
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-06-24 23:27:03 -0700
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-24 23:27:12 -0700
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-24 23:27:12 -0700
+Served asset /application.css - 200 OK (5ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-06-24 23:27:12 -0700
+Served asset /bootstrap.css - 200 OK (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-24 23:27:12 -0700
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/require.js" for 127.0.0.1 at 2015-06-24 23:27:12 -0700
+Served asset /require.js - 200 OK (2ms)
+
+
+Started GET "/assets/application" for 127.0.0.1 at 2015-06-24 23:27:12 -0700
+Served asset /application - 200 OK (2ms)
+
+
+Started GET "/assets/views/home.js" for 127.0.0.1 at 2015-06-24 23:27:12 -0700
+Compiled views/home.js  (182ms)  (pid 41653)
+Served asset /views/home.js - 200 OK (188ms)
+
+
+Started GET "/assets/underscore.js" for 127.0.0.1 at 2015-06-24 23:27:13 -0700
+Served asset /underscore.js - 200 OK (9ms)
+
+
+Started GET "/assets/jquery.js" for 127.0.0.1 at 2015-06-24 23:27:13 -0700
+Served asset /jquery.js - 200 OK (6ms)
+
+
+Started GET "/assets/stache.js" for 127.0.0.1 at 2015-06-24 23:27:13 -0700
+Served asset /stache.js - 404 Not Found (4ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/stache.js"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/assets/views/child-view.js" for 127.0.0.1 at 2015-06-24 23:27:13 -0700
+Served asset /views/child-view.js - 200 OK (5ms)
+
+
+Started GET "/assets/backbone.js" for 127.0.0.1 at 2015-06-24 23:27:13 -0700
+Served asset /backbone.js - 200 OK (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-24 23:28:10 -0700
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 16ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-24 23:28:11 -0700
+Served asset /application.css - 200 OK (8ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-06-24 23:28:11 -0700
+Served asset /bootstrap.css - 200 OK (1ms)
+
+
+Started GET "/assets/require.js" for 127.0.0.1 at 2015-06-24 23:28:11 -0700
+Served asset /require.js - 200 OK (3ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-24 23:28:11 -0700
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/application" for 127.0.0.1 at 2015-06-24 23:28:11 -0700
+Served asset /application - 200 OK (3ms)
+
+
+Started GET "/assets/views/home.js" for 127.0.0.1 at 2015-06-24 23:28:11 -0700
+Served asset /views/home.js - 200 OK (2ms)
+
+
+Started GET "/assets/underscore.js" for 127.0.0.1 at 2015-06-24 23:28:11 -0700
+Served asset /underscore.js - 200 OK (32ms)
+
+
+Started GET "/assets/jquery.js" for 127.0.0.1 at 2015-06-24 23:28:11 -0700
+Served asset /jquery.js - 200 OK (7ms)
+
+
+Started GET "/assets/views/child-view.js" for 127.0.0.1 at 2015-06-24 23:28:11 -0700
+Served asset /views/child-view.js - 200 OK (4ms)
+
+
+Started GET "/assets/backbone.js" for 127.0.0.1 at 2015-06-24 23:28:11 -0700
+Served asset /backbone.js - 200 OK (2ms)
+
+
+Started GET "/assets/text.js" for 127.0.0.1 at 2015-06-24 23:28:11 -0700
+Served asset /text.js - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/text.js"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-24 23:32:11 -0700
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 17ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-24 23:32:11 -0700
+Served asset /home.css - 200 OK (10ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-06-24 23:32:11 -0700
+Served asset /bootstrap.css - 200 OK (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-24 23:32:11 -0700
+Served asset /application.css - 200 OK (4ms)
+
+
+Started GET "/assets/require.js" for 127.0.0.1 at 2015-06-24 23:32:11 -0700
+Served asset /require.js - 200 OK (4ms)
+
+
+Started GET "/assets/application" for 127.0.0.1 at 2015-06-24 23:32:11 -0700
+Served asset /application - 200 OK (2ms)
+
+
+Started GET "/assets/views/home.js" for 127.0.0.1 at 2015-06-24 23:32:11 -0700
+Served asset /views/home.js - 200 OK (2ms)
+
+
+Started GET "/assets/underscore.js" for 127.0.0.1 at 2015-06-24 23:32:11 -0700
+Served asset /underscore.js - 200 OK (31ms)
+
+
+Started GET "/assets/views/child-view.js" for 127.0.0.1 at 2015-06-24 23:32:11 -0700
+Served asset /views/child-view.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js" for 127.0.0.1 at 2015-06-24 23:32:11 -0700
+Served asset /jquery.js - 200 OK (4ms)
+
+
+Started GET "/assets/stache.js" for 127.0.0.1 at 2015-06-24 23:32:11 -0700
+Served asset /stache.js - 404 Not Found (4ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/stache.js"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/backbone.js" for 127.0.0.1 at 2015-06-24 23:32:11 -0700
+Served asset /backbone.js - 200 OK (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-24 23:34:14 -0700
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-24 23:34:14 -0700
+Served asset /application.css - 200 OK (9ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-24 23:34:14 -0700
+Served asset /home.css - 200 OK (1ms)
+
+
+Started GET "/assets/require.js" for 127.0.0.1 at 2015-06-24 23:34:14 -0700
+Served asset /require.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-06-24 23:34:14 -0700
+Served asset /bootstrap.css - 200 OK (2ms)
+
+
+Started GET "/assets/application" for 127.0.0.1 at 2015-06-24 23:34:14 -0700
+Served asset /application - 200 OK (2ms)
+
+
+Started GET "/assets/views/home.js" for 127.0.0.1 at 2015-06-24 23:34:14 -0700
+Compiled views/home.js  (185ms)  (pid 41700)
+Served asset /views/home.js - 200 OK (191ms)
+
+
+Started GET "/assets/jquery.js" for 127.0.0.1 at 2015-06-24 23:34:14 -0700
+Served asset /jquery.js - 200 OK (5ms)
+
+
+Started GET "/assets/views/home.html.js" for 127.0.0.1 at 2015-06-24 23:34:14 -0700
+Served asset /views/home.html.js - 404 Not Found (5ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/views/home.html.js"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/assets/underscore.js" for 127.0.0.1 at 2015-06-24 23:34:14 -0700
+Served asset /underscore.js - 200 OK (2ms)
+
+
+Started GET "/assets/views/child-view.js" for 127.0.0.1 at 2015-06-24 23:34:14 -0700
+Served asset /views/child-view.js - 200 OK (2ms)
+
+
+Started GET "/assets/backbone.js" for 127.0.0.1 at 2015-06-24 23:34:14 -0700
+Served asset /backbone.js - 200 OK (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-24 23:36:21 -0700
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-24 23:36:21 -0700
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-06-24 23:36:21 -0700
+Served asset /bootstrap.css - 200 OK (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-24 23:36:21 -0700
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/require.js" for 127.0.0.1 at 2015-06-24 23:36:21 -0700
+Served asset /require.js - 200 OK (2ms)
+
+
+Started GET "/assets/application" for 127.0.0.1 at 2015-06-24 23:36:21 -0700
+Served asset /application - 200 OK (2ms)
+
+
+Started GET "/assets/views/home.js" for 127.0.0.1 at 2015-06-24 23:36:21 -0700
+Compiled views/home.js  (186ms)  (pid 41719)
+Served asset /views/home.js - 200 OK (192ms)
+
+
+Started GET "/assets/views/child-view.js" for 127.0.0.1 at 2015-06-24 23:36:22 -0700
+Served asset /views/child-view.js - 200 OK (7ms)
+
+
+Started GET "/assets/jquery.js" for 127.0.0.1 at 2015-06-24 23:36:22 -0700
+Served asset /jquery.js - 200 OK (4ms)
+
+
+Started GET "/assets/underscore.js" for 127.0.0.1 at 2015-06-24 23:36:22 -0700
+Served asset /underscore.js - 200 OK (4ms)
+
+
+Started GET "/assets/backbone.js" for 127.0.0.1 at 2015-06-24 23:36:22 -0700
+Served asset /backbone.js - 200 OK (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-24 23:37:14 -0700
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 18ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-24 23:37:14 -0700
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-24 23:37:14 -0700
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-06-24 23:37:14 -0700
+Served asset /bootstrap.css - 200 OK (2ms)
+
+
+Started GET "/assets/require.js" for 127.0.0.1 at 2015-06-24 23:37:14 -0700
+Served asset /require.js - 200 OK (3ms)
+
+
+Started GET "/assets/application" for 127.0.0.1 at 2015-06-24 23:37:14 -0700
+Served asset /application - 200 OK (2ms)
+
+
+Started GET "/assets/views/home.js" for 127.0.0.1 at 2015-06-24 23:37:14 -0700
+Compiled views/home.js  (184ms)  (pid 41737)
+Served asset /views/home.js - 200 OK (191ms)
+
+
+Started GET "/assets/views/child-view.js" for 127.0.0.1 at 2015-06-24 23:37:15 -0700
+Served asset /views/child-view.js - 200 OK (5ms)
+
+
+Started GET "/assets/jquery.js" for 127.0.0.1 at 2015-06-24 23:37:15 -0700
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/underscore.js" for 127.0.0.1 at 2015-06-24 23:37:15 -0700
+Served asset /underscore.js - 200 OK (4ms)
+
+
+Started GET "/assets/backbone.js" for 127.0.0.1 at 2015-06-24 23:37:15 -0700
+Served asset /backbone.js - 200 OK (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-24 23:46:42 -0700
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 22ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-24 23:46:43 -0700
+Served asset /application.css - 200 OK (11ms)
+
+
+Started GET "/assets/require.js" for 127.0.0.1 at 2015-06-24 23:46:43 -0700
+Served asset /require.js - 200 OK (3ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-24 23:46:43 -0700
+Served asset /home.css - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-06-24 23:46:43 -0700
+Served asset /bootstrap.css - 200 OK (1ms)
+
+
+Started GET "/assets/application" for 127.0.0.1 at 2015-06-24 23:46:43 -0700
+Served asset /application - 200 OK (2ms)
+
+
+Started GET "/assets/views/home.js" for 127.0.0.1 at 2015-06-24 23:46:43 -0700
+Compiled views/home.js  (188ms)  (pid 41800)
+Served asset /views/home.js - 200 OK (194ms)
+
+
+Started GET "/assets/underscore.js" for 127.0.0.1 at 2015-06-24 23:46:43 -0700
+Served asset /underscore.js - 200 OK (6ms)
+
+
+Started GET "/assets/views/child-view.js" for 127.0.0.1 at 2015-06-24 23:46:43 -0700
+Served asset /views/child-view.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js" for 127.0.0.1 at 2015-06-24 23:46:43 -0700
+Served asset /jquery.js - 200 OK (4ms)
+
+
+Started GET "/assets/backbone.js" for 127.0.0.1 at 2015-06-24 23:46:43 -0700
+Served asset /backbone.js - 200 OK (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-24 23:48:28 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-24 23:48:28 -0700
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-24 23:48:28 -0700
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-06-24 23:48:28 -0700
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/require.js" for 127.0.0.1 at 2015-06-24 23:48:28 -0700
+Served asset /require.js - 200 OK (0ms)
+
+
+Started GET "/assets/application" for 127.0.0.1 at 2015-06-24 23:48:28 -0700
+Served asset /application - 200 OK (0ms)
+
+
+Started GET "/assets/views/home.js" for 127.0.0.1 at 2015-06-24 23:48:28 -0700
+Served asset /views/home.js - 200 OK (0ms)
+
+
+Started GET "/assets/underscore.js" for 127.0.0.1 at 2015-06-24 23:48:28 -0700
+Served asset /underscore.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js" for 127.0.0.1 at 2015-06-24 23:48:28 -0700
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/views/child-view.js" for 127.0.0.1 at 2015-06-24 23:48:28 -0700
+Compiled views/child-view.js  (156ms)  (pid 41800)
+Served asset /views/child-view.js - 200 OK (190ms)
+
+
+Started GET "/assets/backbone.js" for 127.0.0.1 at 2015-06-24 23:48:28 -0700
+Served asset /backbone.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-24 23:48:43 -0700
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 40ms (Views: 39.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-06-24 23:48:44 -0700
+Served asset /bootstrap.css - 200 OK (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-24 23:48:44 -0700
+Served asset /home.css - 200 OK (3ms)
+
+
+Started GET "/assets/require.js" for 127.0.0.1 at 2015-06-24 23:48:44 -0700
+Served asset /require.js - 200 OK (5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-24 23:48:44 -0700
+Served asset /application.css - 200 OK (10ms)
+
+
+Started GET "/assets/application" for 127.0.0.1 at 2015-06-24 23:48:44 -0700
+Served asset /application - 200 OK (5ms)
+
+
+Started GET "/assets/views/home.js" for 127.0.0.1 at 2015-06-24 23:48:44 -0700
+Served asset /views/home.js - 200 OK (1ms)
+
+
+Started GET "/assets/underscore.js" for 127.0.0.1 at 2015-06-24 23:48:44 -0700
+Served asset /underscore.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js" for 127.0.0.1 at 2015-06-24 23:48:44 -0700
+Served asset /jquery.js - 200 OK (29ms)
+
+
+Started GET "/assets/views/child-view.js" for 127.0.0.1 at 2015-06-24 23:48:44 -0700
+Served asset /views/child-view.js - 200 OK (4ms)
+
+
+Started GET "/assets/backbone.js" for 127.0.0.1 at 2015-06-24 23:48:44 -0700
+Served asset /backbone.js - 200 OK (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-24 23:49:23 -0700
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-24 23:49:23 -0700
+Served asset /application.css - 200 OK (13ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-06-24 23:49:23 -0700
+Served asset /bootstrap.css - 200 OK (1ms)
+
+
+Started GET "/assets/require.js" for 127.0.0.1 at 2015-06-24 23:49:23 -0700
+Served asset /require.js - 200 OK (4ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-24 23:49:23 -0700
+Served asset /home.css - 200 OK (1ms)
+
+
+Started GET "/assets/application" for 127.0.0.1 at 2015-06-24 23:49:23 -0700
+Served asset /application - 200 OK (3ms)
+
+
+Started GET "/assets/views/home.js" for 127.0.0.1 at 2015-06-24 23:49:23 -0700
+Served asset /views/home.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js" for 127.0.0.1 at 2015-06-24 23:49:23 -0700
+Served asset /jquery.js - 200 OK (29ms)
+
+
+Started GET "/assets/underscore.js" for 127.0.0.1 at 2015-06-24 23:49:23 -0700
+Served asset /underscore.js - 200 OK (4ms)
+
+
+Started GET "/assets/views/child-view.js" for 127.0.0.1 at 2015-06-24 23:49:23 -0700
+Compiled views/child-view.js  (159ms)  (pid 41828)
+Served asset /views/child-view.js - 200 OK (168ms)
+
+
+Started GET "/assets/backbone.js" for 127.0.0.1 at 2015-06-24 23:49:24 -0700
+Served asset /backbone.js - 200 OK (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-24 23:56:53 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-06-24 23:56:53 -0700
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-24 23:56:53 -0700
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/require.js" for 127.0.0.1 at 2015-06-24 23:56:53 -0700
+Served asset /require.js - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-24 23:56:53 -0700
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/application" for 127.0.0.1 at 2015-06-24 23:56:53 -0700
+Served asset /application - 200 OK (0ms)
+
+
+Started GET "/assets/views/home.js" for 127.0.0.1 at 2015-06-24 23:56:53 -0700
+Served asset /views/home.js - 200 OK (0ms)
+
+
+Started GET "/assets/underscore.js" for 127.0.0.1 at 2015-06-24 23:56:53 -0700
+Served asset /underscore.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js" for 127.0.0.1 at 2015-06-24 23:56:53 -0700
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/views/child-view.js" for 127.0.0.1 at 2015-06-24 23:56:53 -0700
+Served asset /views/child-view.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone.js" for 127.0.0.1 at 2015-06-24 23:56:53 -0700
+Served asset /backbone.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-24 23:57:57 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-24 23:57:57 -0700
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-06-24 23:57:57 -0700
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-24 23:57:57 -0700
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/require.js" for 127.0.0.1 at 2015-06-24 23:57:57 -0700
+Served asset /require.js - 200 OK (0ms)
+
+
+Started GET "/assets/application" for 127.0.0.1 at 2015-06-24 23:57:57 -0700
+Served asset /application - 200 OK (0ms)
+
+
+Started GET "/assets/views/home.js" for 127.0.0.1 at 2015-06-24 23:57:57 -0700
+Compiled views/home.js  (166ms)  (pid 41828)
+Served asset /views/home.js - 200 OK (172ms)
+
+
+Started GET "/assets/underscore.js" for 127.0.0.1 at 2015-06-24 23:57:57 -0700
+Served asset /underscore.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js" for 127.0.0.1 at 2015-06-24 23:57:57 -0700
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/views/child-view.js" for 127.0.0.1 at 2015-06-24 23:57:57 -0700
+Served asset /views/child-view.js - 200 OK (0ms)
+
+
+Started GET "/assets/stache.js" for 127.0.0.1 at 2015-06-24 23:57:57 -0700
+Served asset /stache.js - 404 Not Found (5ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/stache.js"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/assets/backbone.js" for 127.0.0.1 at 2015-06-24 23:57:57 -0700
+Served asset /backbone.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-25 00:00:38 -0700
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-25 00:00:38 -0700
+Served asset /application.css - 200 OK (13ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-06-25 00:00:38 -0700
+Served asset /bootstrap.css - 200 OK (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-25 00:00:38 -0700
+Served asset /home.css - 200 OK (3ms)
+
+
+Started GET "/assets/require.js" for 127.0.0.1 at 2015-06-25 00:00:38 -0700
+Served asset /require.js - 200 OK (7ms)
+
+
+Started GET "/assets/application" for 127.0.0.1 at 2015-06-25 00:00:38 -0700
+Served asset /application - 200 OK (2ms)
+
+
+Started GET "/assets/views/home.js" for 127.0.0.1 at 2015-06-25 00:00:38 -0700
+Served asset /views/home.js - 200 OK (1ms)
+
+
+Started GET "/assets/underscore.js" for 127.0.0.1 at 2015-06-25 00:00:38 -0700
+Served asset /underscore.js - 200 OK (33ms)
+
+
+Started GET "/assets/jquery.js" for 127.0.0.1 at 2015-06-25 00:00:38 -0700
+Served asset /jquery.js - 200 OK (7ms)
+
+
+Started GET "/assets/views/child-view.js" for 127.0.0.1 at 2015-06-25 00:00:38 -0700
+Served asset /views/child-view.js - 200 OK (4ms)
+
+
+Started GET "/assets/mustache.js" for 127.0.0.1 at 2015-06-25 00:00:38 -0700
+Served asset /mustache.js - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/mustache.js"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/assets/backbone.js" for 127.0.0.1 at 2015-06-25 00:00:39 -0700
+Served asset /backbone.js - 200 OK (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-25 00:01:32 -0700
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 17ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-25 00:01:32 -0700
+Served asset /application.css - 200 OK (9ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-25 00:01:32 -0700
+Served asset /home.css - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-06-25 00:01:32 -0700
+Served asset /bootstrap.css - 200 OK (2ms)
+
+
+Started GET "/assets/require.js" for 127.0.0.1 at 2015-06-25 00:01:32 -0700
+Served asset /require.js - 200 OK (5ms)
+
+
+Started GET "/assets/application" for 127.0.0.1 at 2015-06-25 00:01:33 -0700
+Served asset /application - 200 OK (2ms)
+
+
+Started GET "/assets/views/home.js" for 127.0.0.1 at 2015-06-25 00:01:33 -0700
+Served asset /views/home.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js" for 127.0.0.1 at 2015-06-25 00:01:33 -0700
+Served asset /jquery.js - 200 OK (6ms)
+
+
+Started GET "/assets/views/child-view.js" for 127.0.0.1 at 2015-06-25 00:01:33 -0700
+Served asset /views/child-view.js - 200 OK (5ms)
+
+
+Started GET "/assets/underscore.js" for 127.0.0.1 at 2015-06-25 00:01:33 -0700
+Served asset /underscore.js - 200 OK (3ms)
+
+
+Started GET "/assets/views/home.html" for 127.0.0.1 at 2015-06-25 00:01:33 -0700
+Served asset /views/home.html - 200 OK (3ms)
+
+
+Started GET "/assets/backbone.js" for 127.0.0.1 at 2015-06-25 00:01:33 -0700
+Served asset /backbone.js - 200 OK (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-25 00:03:10 -0700
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 17ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-25 00:03:10 -0700
+Served asset /application.css - 200 OK (11ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-06-25 00:03:10 -0700
+Served asset /bootstrap.css - 200 OK (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-25 00:03:10 -0700
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/require.js" for 127.0.0.1 at 2015-06-25 00:03:10 -0700
+Served asset /require.js - 200 OK (5ms)
+
+
+Started GET "/assets/application" for 127.0.0.1 at 2015-06-25 00:03:10 -0700
+Served asset /application - 200 OK (2ms)
+
+
+Started GET "/assets/views/home.js" for 127.0.0.1 at 2015-06-25 00:03:10 -0700
+Compiled views/home.js  (188ms)  (pid 41909)
+Served asset /views/home.js - 200 OK (195ms)
+
+
+Started GET "/assets/underscore.js" for 127.0.0.1 at 2015-06-25 00:03:11 -0700
+Served asset /underscore.js - 200 OK (7ms)
+
+
+Started GET "/assets/jquery.js" for 127.0.0.1 at 2015-06-25 00:03:11 -0700
+Served asset /jquery.js - 200 OK (10ms)
+
+
+Started GET "/assets/views/child-view.js" for 127.0.0.1 at 2015-06-25 00:03:11 -0700
+Served asset /views/child-view.js - 200 OK (4ms)
+
+
+Started GET "/assets/views/home.html" for 127.0.0.1 at 2015-06-25 00:03:11 -0700
+Served asset /views/home.html - 200 OK (3ms)
+
+
+Started GET "/assets/backbone.js" for 127.0.0.1 at 2015-06-25 00:03:11 -0700
+Served asset /backbone.js - 200 OK (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-25 00:04:18 -0700
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-25 00:04:18 -0700
+Served asset /application.css - 200 OK (13ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-25 00:04:18 -0700
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/require.js" for 127.0.0.1 at 2015-06-25 00:04:18 -0700
+Served asset /require.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-06-25 00:04:18 -0700
+Served asset /bootstrap.css - 200 OK (2ms)
+
+
+Started GET "/assets/application" for 127.0.0.1 at 2015-06-25 00:04:18 -0700
+Served asset /application - 200 OK (2ms)
+
+
+Started GET "/assets/views/home.js" for 127.0.0.1 at 2015-06-25 00:04:18 -0700
+Compiled views/home.js  (186ms)  (pid 41926)
+Served asset /views/home.js - 200 OK (192ms)
+
+
+Started GET "/assets/underscore.js" for 127.0.0.1 at 2015-06-25 00:04:18 -0700
+Served asset /underscore.js - 200 OK (7ms)
+
+
+Started GET "/assets/jquery.js" for 127.0.0.1 at 2015-06-25 00:04:18 -0700
+Served asset /jquery.js - 200 OK (4ms)
+
+
+Started GET "/assets/views/child-view.js" for 127.0.0.1 at 2015-06-25 00:04:18 -0700
+Served asset /views/child-view.js - 200 OK (5ms)
+
+
+Started GET "/assets/backbone.js" for 127.0.0.1 at 2015-06-25 00:04:18 -0700
+Served asset /backbone.js - 200 OK (3ms)
+
+
+Started GET "/assets/views/home.html" for 127.0.0.1 at 2015-06-25 00:04:18 -0700
+Served asset /views/home.html - 200 OK (4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-25 00:04:56 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-06-25 00:04:56 -0700
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-25 00:04:56 -0700
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-25 00:04:56 -0700
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/require.js" for 127.0.0.1 at 2015-06-25 00:04:56 -0700
+Served asset /require.js - 200 OK (0ms)
+
+
+Started GET "/assets/application" for 127.0.0.1 at 2015-06-25 00:04:56 -0700
+Served asset /application - 200 OK (0ms)
+
+
+Started GET "/assets/views/home.js" for 127.0.0.1 at 2015-06-25 00:04:56 -0700
+Compiled views/home.js  (181ms)  (pid 41926)
+Served asset /views/home.js - 200 OK (187ms)
+
+
+Started GET "/assets/underscore.js" for 127.0.0.1 at 2015-06-25 00:04:57 -0700
+Served asset /underscore.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js" for 127.0.0.1 at 2015-06-25 00:04:57 -0700
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/views/child-view.js" for 127.0.0.1 at 2015-06-25 00:04:57 -0700
+Served asset /views/child-view.js - 200 OK (0ms)
+
+
+Started GET "/assets/backbone.js" for 127.0.0.1 at 2015-06-25 00:04:57 -0700
+Served asset /backbone.js - 200 OK (0ms)
+
+
+Started GET "/assets/views/home.html" for 127.0.0.1 at 2015-06-25 00:04:57 -0700
+Served asset /views/home.html - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-25 00:05:31 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 3ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-25 00:05:31 -0700
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-06-25 00:05:31 -0700
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/require.js" for 127.0.0.1 at 2015-06-25 00:05:31 -0700
+Served asset /require.js - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-25 00:05:31 -0700
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/application" for 127.0.0.1 at 2015-06-25 00:05:31 -0700
+Compiled application.js  (168ms)  (pid 41926)
+Served asset /application - 200 OK (173ms)
+
+
+Started GET "/assets/views/home.js" for 127.0.0.1 at 2015-06-25 00:05:31 -0700
+Served asset /views/home.js - 200 OK (0ms)
+
+
+Started GET "/assets/underscore.js" for 127.0.0.1 at 2015-06-25 00:05:31 -0700
+Served asset /underscore.js - 200 OK (0ms)
+
+
+Started GET "/assets/views/child-view.js" for 127.0.0.1 at 2015-06-25 00:05:31 -0700
+Served asset /views/child-view.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js" for 127.0.0.1 at 2015-06-25 00:05:31 -0700
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/views/home.html" for 127.0.0.1 at 2015-06-25 00:05:31 -0700
+Served asset /views/home.html - 200 OK (0ms)
+
+
+Started GET "/assets/backbone.js" for 127.0.0.1 at 2015-06-25 00:05:31 -0700
+Served asset /backbone.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-25 00:15:22 -0700
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 20ms (Views: 19.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-25 00:15:22 -0700
+Served asset /application.css - 200 OK (11ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-06-25 00:15:22 -0700
+Served asset /bootstrap.css - 200 OK (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-25 00:15:22 -0700
+Served asset /home.css - 200 OK (2ms)
+
+
+Started GET "/assets/require.js" for 127.0.0.1 at 2015-06-25 00:15:22 -0700
+Served asset /require.js - 200 OK (3ms)
+
+
+Started GET "/assets/application" for 127.0.0.1 at 2015-06-25 00:15:22 -0700
+Served asset /application - 200 OK (2ms)
+
+
+Started GET "/assets/views/home.js" for 127.0.0.1 at 2015-06-25 00:15:22 -0700
+Compiled views/home.js  (0ms)  (pid 42002)
+Served asset /views/home.js - 200 OK (7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-25 00:17:16 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 3ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-06-25 00:17:16 -0700
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2015-06-25 00:17:16 -0700
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-06-25 00:17:16 -0700
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/require.js" for 127.0.0.1 at 2015-06-25 00:17:16 -0700
+Served asset /require.js - 200 OK (0ms)
+
+
+Started GET "/assets/application" for 127.0.0.1 at 2015-06-25 00:17:16 -0700
+Served asset /application - 200 OK (0ms)
+
+
+Started GET "/assets/views/home.js" for 127.0.0.1 at 2015-06-25 00:17:16 -0700
+Compiled views/home.js  (0ms)  (pid 42002)
+Served asset /views/home.js - 200 OK (5ms)
