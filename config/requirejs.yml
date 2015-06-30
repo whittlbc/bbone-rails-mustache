@@ -1,7 +1,3 @@
-paths:
-    mustache: ./mustache
-    Mustache: ./mustache
-    stache: ./stache
 shim:
     backbone:
         deps: [underscore, jquery]
