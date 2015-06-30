@@ -1,2 +1,5 @@
-Backbone-Rails-Mustache-RequireJS Template
+Backbone-Rails-Mustache-RequireJS
 ==========================================
+
+A 'Hello World' Template
+
