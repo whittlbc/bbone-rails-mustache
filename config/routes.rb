@@ -1,5 +1,12 @@
 Backboneworld::Application.routes.draw do
-  get "home/index"
+
+  get '/' => 'home#index'
+
+  resources :projects do
+    collection do
+      get :index
+    end
+  end
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

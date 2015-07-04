@@ -1,20 +1,40 @@
-define(["backbone", "events", "views/home/index-view"], function(Backbone, Events, IndexView) {
+define(["backbone",
+    "events",
+    "views/home/index-view",
+    "views/projects/project-view"],
+    function(Backbone,
+     Events,
+     IndexView,
+     ProjectView) {
 
   var Router = Backbone.Router.extend({
 
     routes: {
-        '*path': 'defaultRoute'
+        'projects': 'projectRoute',
+        '': 'defaultRoute'
     },
 
-    defaultRoute: function () {
-        console.log('heard default route');
+    projectRoute: function() {
+        console.log('heard project route');
 
-        var indexView = new IndexView({
-            el: '#TheApp'
+        var projectView = new ProjectView({
+            el: '#project'
         });
 
-        indexView.render();
-    }
+        projectView.render();
+    },
+
+      defaultRoute: function () {
+          console.log('heard default route');
+
+          var indexView = new IndexView({
+              el: '#home'
+          });
+
+          indexView.render();
+      }
+
+
   });
 
   return Router;

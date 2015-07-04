@@ -2982,3 +2982,206 @@ Served asset /views/home/index-view.js - 304 Not Modified (35ms)
 Started GET "/assets/backbone.js" for 127.0.0.1 at 2015-07-04 02:04:26 -0700
 Compiled backbone.js  (1ms)  (pid 31481)
 Served asset /backbone.js - 304 Not Modified (32ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-04 14:27:05 -0700
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+Compiled projects.css  (60ms)  (pid 34525)
+Compiled application.css  (70ms)  (pid 34525)
+Completed 200 OK in 264ms (Views: 263.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-07-04 14:27:06 -0700
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-07-04 14:27:06 -0700
+Served asset /projects.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/require.js" for 127.0.0.1 at 2015-07-04 14:27:06 -0700
+Compiled require.js  (2ms)  (pid 34525)
+Served asset /require.js - 304 Not Modified (156ms)
+
+
+Started GET "/assets/application" for 127.0.0.1 at 2015-07-04 14:27:06 -0700
+Compiled application.js  (0ms)  (pid 34525)
+Served asset /application - 304 Not Modified (69ms)
+
+
+Started GET "/assets/underscore.js" for 127.0.0.1 at 2015-07-04 14:27:06 -0700
+Served asset /underscore.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/jquery.js" for 127.0.0.1 at 2015-07-04 14:27:06 -0700
+Served asset /jquery.js - 304 Not Modified (51ms)
+
+
+Started GET "/assets/router.js" for 127.0.0.1 at 2015-07-04 14:27:06 -0700
+Compiled router.js  (0ms)  (pid 34525)
+Served asset /router.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/backbone.js" for 127.0.0.1 at 2015-07-04 14:27:06 -0700
+Served asset /backbone.js - 304 Not Modified (70ms)
+
+
+Started GET "/assets/events.js" for 127.0.0.1 at 2015-07-04 14:27:06 -0700
+Served asset /events.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/views/projects/project-view.js" for 127.0.0.1 at 2015-07-04 14:27:07 -0700
+Compiled views/projects/project-view.js  (0ms)  (pid 34525)
+Served asset /views/projects/project-view.js - 304 Not Modified (117ms)
+
+
+Started GET "/assets/views/home/index-view.js" for 127.0.0.1 at 2015-07-04 14:27:07 -0700
+Compiled views/home/index-view.js  (0ms)  (pid 34525)
+Served asset /views/home/index-view.js - 304 Not Modified (34ms)
+
+
+Started GET "/assets/views/projects/project-view.html" for 127.0.0.1 at 2015-07-04 14:27:07 -0700
+Served asset /views/projects/project-view.html - 304 Not Modified (8ms)
+
+
+Started GET "/assets/views/home/index-view.html" for 127.0.0.1 at 2015-07-04 14:27:07 -0700
+Served asset /views/home/index-view.html - 304 Not Modified (67ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-07-04 14:27:11 -0700
+Processing by ProjectsController#index as HTML
+  Rendered projects/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 23ms (Views: 22.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-07-04 14:27:11 -0700
+Processing by ProjectsController#index as HTML
+  Rendered projects/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-07-04 14:27:11 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-07-04 14:27:11 -0700
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/require.js" for 127.0.0.1 at 2015-07-04 14:27:11 -0700
+Served asset /require.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application" for 127.0.0.1 at 2015-07-04 14:27:11 -0700
+Served asset /application - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js" for 127.0.0.1 at 2015-07-04 14:27:11 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js" for 127.0.0.1 at 2015-07-04 14:27:11 -0700
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/router.js" for 127.0.0.1 at 2015-07-04 14:27:11 -0700
+Served asset /router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js" for 127.0.0.1 at 2015-07-04 14:27:11 -0700
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/projects/project-view.js" for 127.0.0.1 at 2015-07-04 14:27:11 -0700
+Served asset /views/projects/project-view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js" for 127.0.0.1 at 2015-07-04 14:27:11 -0700
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/home/index-view.js" for 127.0.0.1 at 2015-07-04 14:27:11 -0700
+Served asset /views/home/index-view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/stache.js" for 127.0.0.1 at 2015-07-04 14:27:11 -0700
+Compiled stache.js  (0ms)  (pid 34525)
+Served asset /stache.js - 200 OK (33ms)
+
+
+Started GET "/assets/mustache.js" for 127.0.0.1 at 2015-07-04 14:27:11 -0700
+Compiled mustache.js  (0ms)  (pid 34525)
+Served asset /mustache.js - 200 OK (8ms)
+
+
+Started GET "/assets/text.js" for 127.0.0.1 at 2015-07-04 14:27:11 -0700
+Compiled text.js  (0ms)  (pid 34525)
+Served asset /text.js - 200 OK (32ms)
+
+
+Started GET "/assets/views/projects/project-view.html" for 127.0.0.1 at 2015-07-04 14:27:11 -0700
+Served asset /views/projects/project-view.html - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/home/index-view.html" for 127.0.0.1 at 2015-07-04 14:27:11 -0700
+Served asset /views/home/index-view.html - 304 Not Modified (0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-07-04 14:27:43 -0700
+Processing by ProjectsController#index as HTML
+  Rendered projects/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-07-04 14:27:43 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-07-04 14:27:43 -0700
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/require.js" for 127.0.0.1 at 2015-07-04 14:27:43 -0700
+Served asset /require.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application" for 127.0.0.1 at 2015-07-04 14:27:43 -0700
+Served asset /application - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js" for 127.0.0.1 at 2015-07-04 14:27:43 -0700
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js" for 127.0.0.1 at 2015-07-04 14:27:43 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/router.js" for 127.0.0.1 at 2015-07-04 14:27:43 -0700
+Served asset /router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js" for 127.0.0.1 at 2015-07-04 14:27:43 -0700
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/events.js" for 127.0.0.1 at 2015-07-04 14:27:43 -0700
+Served asset /events.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/projects/project-view.js" for 127.0.0.1 at 2015-07-04 14:27:43 -0700
+Served asset /views/projects/project-view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/home/index-view.js" for 127.0.0.1 at 2015-07-04 14:27:43 -0700
+Served asset /views/home/index-view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/projects/project-view.html" for 127.0.0.1 at 2015-07-04 14:27:43 -0700
+Served asset /views/projects/project-view.html - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/home/index-view.html" for 127.0.0.1 at 2015-07-04 14:27:43 -0700
+Served asset /views/home/index-view.html - 304 Not Modified (0ms)
