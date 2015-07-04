@@ -18,7 +18,6 @@ define(['jquery',
 		render: function () {
 			var self = this;
             this.$el.html(IndexViewTpl({
-                message: 'Home'
             }));
 		}
 	});
@@ -26,4 +25,3 @@ define(['jquery',
 	return IndexView;
 
 });
-

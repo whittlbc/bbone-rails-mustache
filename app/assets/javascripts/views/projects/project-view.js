@@ -18,7 +18,6 @@ define(['jquery',
         render: function () {
             var self = this;
             this.$el.html(ProjectViewTpl({
-                message: 'Projects'
             }));
         }
     });

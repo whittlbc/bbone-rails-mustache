@@ -1,0 +1,28 @@
+
+body {
+    padding-top: 90px;
+}
+
+.header {
+    height: 90px;
+    margin-bottom: 0px;
+}
+
+.footer-menu {
+    padding-right: 32px;
+}
+
+.main-footer {
+    padding-top: 0px;
+}
+
+.copyright {
+    text-align: center;
+    height: 72px;
+    margin-bottom: 0;
+    line-height: 72px;
+}
+
+.copyright-container {
+    height: 72px;
+}

@@ -3,14 +3,32 @@
 <head>
   <title>Backbone-Rails-Mustache</title>
   <%= stylesheet_link_tag "application", :media => "all" %>
-  <%= stylesheet_link_tag "bootstrap.min.css" %>
-  <%-# = javascript_include_tag "application" -%>
+  <%= stylesheet_link_tag "bootstrap.min" %>
+  <%= stylesheet_link_tag "main" %>
+  <%= stylesheet_link_tag "favicon.ico", :rel => "shortcut icon" %>
+  <link href="http://fonts.googleapis.com/css?family=Lato:400,900,300,700" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic" rel="stylesheet">
   <%= requirejs_include_tag "application.js" %>
   <%= csrf_meta_tags %>
 </head>
+
+<header>
+  <div class="navbar navbar-default navbar-fixed-top header">
+  </div>
+</header>
+
 <body>
 
   <%= yield %>
 
 </body>
+
+<footer class="main-footer">
+  <div class="footer-container">
+    <div class="container inner copyright-container">
+      <p class="copyright">© 2015 Go Fuck Yourself</p>
+    </div>
+  </div>
+</footer>
+
 </html>
