@@ -12,6 +12,7 @@ A 'Hello World' Template that's Heroku-ready
 # Heroku Quick Start
 
 `heroku login` --> type in credentials when prompted
+
 *Create yourself a new app on Heroku and name it whatever you want
 `heroku git:remote -a <APP_NAME> -r <REMOTE_NAME>`
 `git push <REMOTE_NAME> <LOCAL_BRANCH_NAME>:master`
