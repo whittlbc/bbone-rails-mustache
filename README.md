@@ -9,6 +9,8 @@ A 'Hello World' Template that's Heroku-ready
 
 `cd bbone-rails-mustache`
 
+`bundle exec rake assets:precompile RAILS_ENV=production`
+
 `rails server`
 
 # Heroku Quick Start
