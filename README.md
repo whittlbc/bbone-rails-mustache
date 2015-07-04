@@ -6,7 +6,9 @@ A 'Hello World' Template that's Heroku-ready
 # Quick Start:
 
 `git clone https://github.com/whittlbc/bbone-rails-mustache.git`
+
 `cd bbone-rails-mustache`
+
 `rails server`
 
 # Heroku Quick Start
