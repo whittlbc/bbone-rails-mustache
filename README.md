@@ -13,7 +13,7 @@ A 'Hello World' Template that's Heroku-ready
 
 `heroku login` --> type in credentials when prompted
 
-*Create yourself a new app on Heroku and name it whatever you want
+Create yourself a new app on Heroku and name it whatever you want
 
 `heroku git:remote -a <APP_NAME> -r <REMOTE_NAME>`
 
