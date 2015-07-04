@@ -1,11 +1,13 @@
+paths:
+    stache: 'stache'
 shim:
     backbone:
-        deps: [underscore, jquery]
-        exports: Backbone
+        deps: ['underscore', 'jquery']
+        exports: 'Backbone'
     underscore:
-        exports: _
+        exports: '_'
     bootstrap:
-        deps: [jquery]
+        deps: ['jquery']
 modules:
-    - name: application
+    - name: 'application'
 

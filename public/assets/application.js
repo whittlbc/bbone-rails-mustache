@@ -1,0 +1,1 @@
+define(["backbone","router"],function(e,t){var n={};return n.start=function(){new t,e.history.start()},n.start(),n});

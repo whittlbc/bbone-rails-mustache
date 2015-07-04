@@ -34,4 +34,13 @@ Backboneworld::Application.configure do
 
   # Print deprecation notices to the stderr
   config.active_support.deprecation = :stderr
+
+  config.assets.precompile += %w( bootstrap.min.css )
+
+  # Compress JavaScripts and CSS
+  # config.assets.compress = true
+
+  # Don't fallback to assets pipeline if a precompiled asset is missed
+  # config.assets.compile = true
+
 end
