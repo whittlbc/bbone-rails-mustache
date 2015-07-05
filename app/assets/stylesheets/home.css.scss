@@ -1,5 +1,15 @@
 
 .home-body {
-  height: 1000px;
   background-color: #eeeeee;
+  min-height: 700px;
+}
+
+#project-feed {
+  height: 400px;
+  background-color: black;
+}
+
+.project-post-view {
+  height: 300px;
+  background-color: blue;
 }

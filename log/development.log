@@ -3275,3 +3275,77 @@ Served asset /views/home/index-view.js - 304 Not Modified (0ms)
 Started GET "/assets/backbone.js" for 127.0.0.1 at 2015-07-04 16:57:13 -0700
 Compiled backbone.js  (1ms)  (pid 36079)
 Served asset /backbone.js - 304 Not Modified (8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-04 17:48:45 -0700
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (15.9ms)
+Compiled bootstrap.min.css  (23ms)  (pid 37804)
+Compiled home.css  (5ms)  (pid 37804)
+Compiled main.css  (0ms)  (pid 37804)
+Compiled projects.css  (1ms)  (pid 37804)
+Compiled application.css  (41ms)  (pid 37804)
+Completed 200 OK in 129ms (Views: 128.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2015-07-04 17:48:46 -0700
+Served asset /main.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-07-04 17:48:46 -0700
+Served asset /projects.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-07-04 17:48:46 -0700
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application" for 127.0.0.1 at 2015-07-04 17:48:46 -0700
+Compiled application.js  (0ms)  (pid 37804)
+Served asset /application - 304 Not Modified (38ms)
+
+
+Started GET "/assets/router.js" for 127.0.0.1 at 2015-07-04 17:48:46 -0700
+Compiled router.js  (0ms)  (pid 37804)
+Served asset /router.js - 304 Not Modified (34ms)
+
+
+Started GET "/assets/views/projects/project-view.js" for 127.0.0.1 at 2015-07-04 17:48:46 -0700
+Compiled views/projects/project-view.js  (0ms)  (pid 37804)
+Served asset /views/projects/project-view.js - 304 Not Modified (64ms)
+
+
+Started GET "/assets/views/home/index-view.js" for 127.0.0.1 at 2015-07-04 17:48:46 -0700
+Compiled views/home/index-view.js  (0ms)  (pid 37804)
+Served asset /views/home/index-view.js - 304 Not Modified (80ms)
+
+
+Started GET "/assets/events.js" for 127.0.0.1 at 2015-07-04 17:48:46 -0700
+Compiled events.js  (0ms)  (pid 37804)
+Served asset /events.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/stache.js" for 127.0.0.1 at 2015-07-04 17:48:46 -0700
+Compiled stache.js  (0ms)  (pid 37804)
+Served asset /stache.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/views/home/project-feed-view.js" for 127.0.0.1 at 2015-07-04 17:48:46 -0700
+Compiled views/home/project-feed-view.js  (0ms)  (pid 37804)
+Served asset /views/home/project-feed-view.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/mustache.js" for 127.0.0.1 at 2015-07-04 17:48:46 -0700
+Compiled mustache.js  (0ms)  (pid 37804)
+Served asset /mustache.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/views/home/project-post-view.js" for 127.0.0.1 at 2015-07-04 17:48:46 -0700
+Compiled views/home/project-post-view.js  (0ms)  (pid 37804)
+Served asset /views/home/project-post-view.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/text.js" for 127.0.0.1 at 2015-07-04 17:48:47 -0700
+Compiled text.js  (0ms)  (pid 37804)
+Served asset /text.js - 304 Not Modified (8ms)
