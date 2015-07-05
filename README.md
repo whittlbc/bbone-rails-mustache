@@ -1,7 +1,7 @@
 Backbone-Rails-Mustache-RequireJS
 ==========================================
 
-A 'Hello World' Template that's Heroku-ready
+A Heroku-ready template for Backbone-Rails apps using Mustache, RequireJS, and Bootstrap.
 
 # Quick Start:
 
