@@ -9,7 +9,9 @@ A 'Hello World' Template that's Heroku-ready
 
 `cd bbone-rails-mustache`
 
-`bundle exec rake assets:precompile RAILS_ENV=production`
+`bundle install`
+
+`bundle exec rake db:migrate`
 
 `rails server`
 
@@ -20,6 +22,8 @@ A 'Hello World' Template that's Heroku-ready
 Create yourself a new app on Heroku and name it whatever you want
 
 `heroku git:remote -a <APP_NAME> -r <REMOTE_NAME>`
+
+`bundle exec rake assets:precompile RAILS_ENV=production`
 
 `git push <REMOTE_NAME> <LOCAL_BRANCH_NAME>:master`
 
